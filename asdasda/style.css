@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #eeeeee;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    background: #333;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+header h2 {
+    color: white;
+    margin-right: 40px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.cards div {
+    width: 250px;
+}
+
+.cards img {
+    width: 250px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cards p {
+    line-height: 1.5;
+}
+
+.study-logo {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background: #333;
+    color: white;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.links a {
+    color: white;
+}
+
